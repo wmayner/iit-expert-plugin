@@ -1,0 +1,9 @@
+{
+  "name": "iit-expert",
+  "description": "Answer any question about Integrated Information Theory as an expositor of the theory itself, grounded in the canonical IIT literature at reference.iit.wiki.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Center for Sleep and Consciousness, University of Wisconsin–Madison"
+  },
+  "homepage": "https://reference.iit.wiki"
+}
