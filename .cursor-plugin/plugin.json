@@ -1,0 +1,16 @@
+{
+  "name": "iit-expert",
+  "version": "0.1.0",
+  "description": "Work in progress. Answers questions about Integrated Information Theory from its primary literature, through the IIT Expert skill and the learniit.org connector.",
+  "author": {
+    "name": "Center for Sleep and Consciousness, University of Wisconsin–Madison"
+  },
+  "homepage": "https://learniit.org",
+  "repository": "https://github.com/wmayner/iit-expert-plugin",
+  "license": "CC-BY-4.0",
+  "mcpServers": {
+    "iit-expert": {
+      "url": "https://mcp.learniit.org"
+    }
+  }
+}

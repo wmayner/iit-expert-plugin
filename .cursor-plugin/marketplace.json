@@ -6,7 +6,11 @@
   "plugins": [
     {
       "name": "iit-expert",
-      "source": "./"
+      "source": "./",
+      "description": "Work in progress. The IIT Expert skill and the learniit.org connector."
     }
-  ]
+  ],
+  "metadata": {
+    "description": "The IIT Expert plugin: a skill and a connector for Integrated Information Theory's primary literature."
+  }
 }

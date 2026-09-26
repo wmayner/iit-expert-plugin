@@ -1,8 +1,10 @@
 """Fail if the plugin's manifests disagree with each other.
 
-Claude Code and Codex read ``.claude-plugin/``; Cursor reads the Agent Plugins
-files at the root. The fields every agent shows a user must match, and every MCP
-file must name the same connector.
+Claude Code reads ``.claude-plugin/`` and ``.mcp.json``; Codex reads
+``.claude-plugin/`` and the Agent Plugins ``mcp.json``, whose ``type`` it
+requires; Cursor reads ``.cursor-plugin/``, whose ``plugin.json`` declares the
+connector inline because Cursor expects no ``type``. The fields every agent
+shows a user must match, and every MCP entry must name the same connector.
 """
 
 import json
@@ -11,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SHARED = ("name", "version", "description", "homepage", "repository", "license", "author")
-MANIFESTS = ("plugin.json", ".claude-plugin/plugin.json")
+MANIFESTS = ("plugin.json", ".claude-plugin/plugin.json", ".cursor-plugin/plugin.json")
 MCP_FILES = (".mcp.json", "mcp.json")
 MARKETPLACES = (".claude-plugin/marketplace.json", ".cursor-plugin/marketplace.json")
 
@@ -29,7 +31,7 @@ def problems() -> list[str]:
                 found.append(f"{path}: {field} differs from {MANIFESTS[0]}")
     urls = {
         path: {server["url"] for server in load(path)["mcpServers"].values()}
-        for path in MCP_FILES
+        for path in (*MCP_FILES, ".cursor-plugin/plugin.json")
     }
     if len({frozenset(value) for value in urls.values()}) != 1:
         found.append(f"MCP files name different servers: {urls}")
