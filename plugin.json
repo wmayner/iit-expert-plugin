@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "iit-expert",
   "version": "0.1.0",
   "description": "Work in progress. Answers questions about Integrated Information Theory from its primary literature, through the IIT Expert skill and the learniit.org connector.",

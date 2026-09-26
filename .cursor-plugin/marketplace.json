@@ -1,0 +1,12 @@
+{
+  "name": "iit-expert",
+  "owner": {
+    "name": "Will Mayner"
+  },
+  "plugins": [
+    {
+      "name": "iit-expert",
+      "source": "./"
+    }
+  ]
+}

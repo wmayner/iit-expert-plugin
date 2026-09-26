@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "iit-expert": {
+      "type": "http",
+      "url": "https://mcp.learniit.org"
+    }
+  }
+}

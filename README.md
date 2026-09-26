@@ -1,25 +1,50 @@
-# IIT Expert plugin
+# IIT Expert
 
-A Claude Code plugin that turns the assistant into an expositor of Integrated
-Information Theory, grounded in the canonical IIT literature published at
-[reference.iit.wiki](https://reference.iit.wiki).
+IIT Expert helps an AI assistant answer questions about Integrated Information
+Theory from the theory's primary literature: the IIT wiki, the papers, and a
+glossary of the axioms, postulates and measures. The plugin installs two
+things. The connector, served at `https://mcp.learniit.org`, gives the
+assistant those sources. The `iit-expert` skill tells it to read them before
+answering, and to cite where each claim comes from, instead of relying on what
+it already believes about IIT. The same content is published at
+[learniit.org](https://learniit.org).
 
-The skill fetches the corpus from the reference site rather than bundling it,
-so it always reads the current content. The same content is served over MCP at
-`mcp.iit.wiki` for clients that prefer a connector; the two are independent.
+## Work in progress
 
-**Status: pre-release.** The skill ships here once the corpus intake is
-complete and the content is vetted; until then this repository holds the
-structure only. The content of `skills/iit-expert/` is maintained in the
-lab's working repository and copied here on release.
+The corpus and glossary are still being checked against the sources, so some
+answers will be incomplete. If the assistant says something wrong about IIT, or
+can't answer a question it should be able to, please open an issue.
 
 ## Installation
 
-Once released:
+**Claude Code**
 
 ```
-/plugin install iit-expert
+claude plugin marketplace add wmayner/iit-expert-plugin
+claude plugin install iit-expert@iit-expert
 ```
+
+**Codex**
+
+```
+codex plugin marketplace add wmayner/iit-expert-plugin
+codex plugin add iit-expert@iit-expert
+```
+
+**Cursor:** open Customize → From GitHub Repository and enter `wmayner/iit-expert-plugin`.
+
+**claude.ai and Claude Desktop** cannot install plugins from this repository; follow <https://learniit.org/install>.
+
+To compute IIT quantities, pair it with PyPhi's MCP server, described at
+<https://pyphi.readthedocs.io/en/latest/howto/ai-assistants.html>.
+
+## Keeping the skill current
+
+The skill's source is maintained in the IIT Expert repository and copied here
+with its `build/sync_plugin.py`, which also sets the version in both manifests.
+Claude Code offers an update only when the version changes.
+`scripts/check_manifests.py` runs on every push and fails if the manifests
+disagree.
 
 ## Licence
 
