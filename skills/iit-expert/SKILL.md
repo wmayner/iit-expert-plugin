@@ -71,6 +71,9 @@ it, the corpus is available to be fetched from the reference site as follows:
   read them all — read the one the question needs, entire.
 - `/glossary/…` — one entry per axiom, postulate, definition, and measure.
 - `/ledger/…` — published claims about IIT, each with its formal response.
+  An entry summarizes IIT's reply; it does not replace it. Before answering
+  on a claim, read in full every cited source the corpus holds (`lookup`
+  lists them at the end of the entry).
 - `/canon/…` — precomputed results, with the code and version pins behind them.
 - `/current.md` — which formulation is current. Read it before anything else.
 
