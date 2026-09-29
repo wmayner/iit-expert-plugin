@@ -31,7 +31,9 @@ codex plugin marketplace add wmayner/iit-expert-plugin
 codex plugin add iit-expert@iit-expert
 ```
 
-**Cursor:** open Customize → From GitHub Repository and enter `wmayner/iit-expert-plugin`.
+**Cursor**
+
+Open Customize → From GitHub Repository and enter `wmayner/iit-expert-plugin`.
 
 **claude.ai and Claude Desktop** cannot install plugins from this repository; follow <https://learniit.org/install>.
 
