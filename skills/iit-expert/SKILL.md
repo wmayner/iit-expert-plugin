@@ -184,17 +184,22 @@ install pyphi`) rather than skipping the computation:
 ```python
 import pyphi
 sub = pyphi.Substrate(tpm, cm=cm, node_labels=labels)
-sys = pyphi.System.from_substrate(sub, state)
-sia = sys.sia()          # Φ_s and the MIP
-ces = sys.ces()          # distinctions
+analysis = pyphi.analyze(sub, state)
+analysis.phi             # φ_s, system integrated information (the MIP is analysis.sia)
+analysis.big_phi         # Φ, structure integrated information
+analysis.ces             # the Φ-structure: distinctions and relations
 ```
 
+φ_s and Φ are different quantities: φ_s decides whether the system exists as one
+whole, and Φ sums φ over its distinctions and relations. A system can have φ_s = 0
+while Φ > 0, so never report one as the other.
+
 Use it for: worked examples from the wiki, small logic-gate networks, showing why a
-feedforward system has Φ = 0, demonstrating what a partition does, exhibiting a complex.
+feedforward system has φ_s = 0, demonstrating what a partition does, exhibiting a complex.
 Keep systems small (n ≲ 8) — the computation is superexponential. Show the code and the
 numbers, so the person can rerun it.
 
-Note the practical facts when they matter: Φ_s at 20+ units is intractable (hence
+Note the practical facts when they matter: φ_s at 20+ units is intractable (hence
 scoped/certified-bound approaches).
 
 ## Manner
