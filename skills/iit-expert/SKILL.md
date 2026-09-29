@@ -83,7 +83,9 @@ The MCP server provides these tool calls:
 - `read_document` returns whole corpus documents;
 - `lookup` resolves any `iit:` identifier — for a work (`iit:ref/…`) it
   returns the record, including the paper's **abstract** when one is held;
-- `ledger` and `canon_result` cover the claims table and the precomputed results.
+- `ledger` and `canon_result` cover the claims table and the precomputed results;
+- `get_figure` returns a figure that a document links to (a
+  `/corpus/figures/…` path) as an image, so you can see it.
 The tools serve exactly the same content as the URLs above from the same deploy,
 and a tool call is more reliable than a web fetch.
 
