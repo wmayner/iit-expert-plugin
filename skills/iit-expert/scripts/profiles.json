@@ -1,0 +1,231 @@
+{
+ "_note": "Measured 2026-09-30 with check_answer.sentence_lengths on cleaned texts of the sources (references stripped). Tononi & Boly 2025 and wiki pages are clean text; journal papers are PDF extractions, so their 'short' share is inflated by residual figure labels and headers. Use mean and burstiness as a guide, not a target.",
+ "albantakis-2019a": {
+  "burst": 0.63,
+  "long": 19,
+  "mean": 23.8,
+  "short": 13
+ },
+ "albantakis-2023b": {
+  "burst": 0.54,
+  "long": 26,
+  "mean": 27.5,
+  "short": 6
+ },
+ "boly-2024": {
+  "burst": 0.74,
+  "long": 12,
+  "mean": 20.5,
+  "short": 25
+ },
+ "comolatti-2025": {
+  "burst": 0.88,
+  "long": 18,
+  "mean": 21.8,
+  "short": 28
+ },
+ "ellia-2021": {
+  "burst": 0.69,
+  "long": 18,
+  "mean": 21.7,
+  "short": 22
+ },
+ "faq": {
+  "burst": 0.53,
+  "long": 16,
+  "mean": 23.8,
+  "short": 6
+ },
+ "findlay-2025": {
+  "burst": 0.68,
+  "long": 13,
+  "mean": 20.0,
+  "short": 19
+ },
+ "grasso-2021a": {
+  "burst": 0.58,
+  "long": 25,
+  "mean": 28.2,
+  "short": 4
+ },
+ "grasso-2021b": {
+  "burst": 0.68,
+  "long": 23,
+  "mean": 24.2,
+  "short": 17
+ },
+ "grasso-forthcoming": {
+  "burst": 0.78,
+  "long": 22,
+  "mean": 22.5,
+  "short": 29
+ },
+ "haun-2019": {
+  "burst": 0.66,
+  "long": 23,
+  "mean": 25.2,
+  "short": 12
+ },
+ "haun-2025": {
+  "burst": 0.49,
+  "long": 11,
+  "mean": 22.3,
+  "short": 9
+ },
+ "marshall-2023": {
+  "burst": 0.62,
+  "long": 20,
+  "mean": 25.2,
+  "short": 9
+ },
+ "marshall-2026": {
+  "burst": 0.64,
+  "long": 23,
+  "mean": 26.4,
+  "short": 10
+ },
+ "mayner-2024": {
+  "burst": 0.61,
+  "long": 30,
+  "mean": 30.0,
+  "short": 4
+ },
+ "mayner-2026": {
+  "burst": 0.61,
+  "long": 19,
+  "mean": 24.7,
+  "short": 8
+ },
+ "sarasso-2021": {
+  "burst": 0.92,
+  "long": 14,
+  "mean": 17.1,
+  "short": 34
+ },
+ "tononi-2023": {
+  "burst": 0.65,
+  "long": 28,
+  "mean": 30.1,
+  "short": 5
+ },
+ "tononi-2025": {
+  "burst": 0.56,
+  "long": 29,
+  "mean": 28.6,
+  "short": 6
+ },
+ "tononi-boly-2025": {
+  "burst": 0.45,
+  "long": 21,
+  "mean": 26.1,
+  "short": 3
+ },
+ "wiki-axioms-and-postulates": {
+  "burst": 0.51,
+  "long": 11,
+  "mean": 20.0,
+  "short": 10
+ },
+ "wiki-axioms-and-postulates-composition": {
+  "burst": 0.48,
+  "long": 21,
+  "mean": 25.7,
+  "short": 0
+ },
+ "wiki-axioms-and-postulates-exclusion": {
+  "burst": 0.61,
+  "long": 12,
+  "mean": 23.7,
+  "short": 0
+ },
+ "wiki-axioms-and-postulates-information": {
+  "burst": 0.58,
+  "long": 15,
+  "mean": 24.6,
+  "short": 4
+ },
+ "wiki-axioms-and-postulates-integration": {
+  "burst": 0.63,
+  "long": 27,
+  "mean": 26.7,
+  "short": 7
+ },
+ "wiki-axioms-and-postulates-intrinsicality": {
+  "burst": 0.61,
+  "long": 27,
+  "mean": 27.8,
+  "short": 2
+ },
+ "wiki-faqs-axioms": {
+  "burst": 0.56,
+  "long": 15,
+  "mean": 22.4,
+  "short": 7
+ },
+ "wiki-faqs-method": {
+  "burst": 0.61,
+  "long": 20,
+  "mean": 24.9,
+  "short": 8
+ },
+ "wiki-faqs-philosophy": {
+  "burst": 0.47,
+  "long": 14,
+  "mean": 22.5,
+  "short": 5
+ },
+ "wiki-faqs-postulates": {
+  "burst": 0.49,
+  "long": 17,
+  "mean": 25.2,
+  "short": 5
+ },
+ "wiki-faqs-technical": {
+  "burst": 0.47,
+  "long": 11,
+  "mean": 22.7,
+  "short": 3
+ },
+ "wiki-foundations": {
+  "burst": 0.59,
+  "long": 12,
+  "mean": 21.6,
+  "short": 2
+ },
+ "wiki-glossary": {
+  "burst": 0.65,
+  "long": 16,
+  "mean": 22.5,
+  "short": 12
+ },
+ "wiki-identity": {
+  "burst": 0.49,
+  "long": 19,
+  "mean": 28.0,
+  "short": 3
+ },
+ "wiki-overview": {
+  "burst": 0.55,
+  "long": 14,
+  "mean": 23.2,
+  "short": 5
+ },
+ "wiki-unfolding": {
+  "burst": 0.44,
+  "long": 15,
+  "mean": 24.1,
+  "short": 2
+ },
+ "wiki-validation-arc-cogitate-supplement": {
+  "burst": 0.64,
+  "long": 16,
+  "mean": 22.2,
+  "short": 16
+ },
+ "zaeemzadeh-2024a": {
+  "burst": 0.68,
+  "long": 14,
+  "mean": 21.6,
+  "short": 18
+ }
+}
