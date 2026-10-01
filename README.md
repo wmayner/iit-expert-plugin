@@ -40,6 +40,34 @@ Open Customize → From GitHub Repository and enter `wmayner/iit-expert-plugin`.
 To compute IIT quantities, pair it with PyPhi's MCP server, described at
 <https://pyphi.readthedocs.io/en/latest/howto/ai-assistants.html>.
 
+## Updating
+
+The connector is always current. The skill is a copy on your machine, and it
+stays at the version you installed until you update it.
+
+**Claude Code**
+
+```
+claude plugin update iit-expert@iit-expert
+```
+
+Restart Claude Code afterwards. To receive later versions without running the
+command, run `/plugin`, open the Marketplaces tab, select `iit-expert` and
+choose Enable auto-update.
+
+**Codex**
+
+```
+codex plugin marketplace upgrade iit-expert
+```
+
+**Cursor**
+
+Open Customize and click Refresh on the IIT Expert plugin.
+
+**claude.ai and Claude Desktop**: download the skill again from
+<https://learniit.org/install> and upload it in place of the earlier copy.
+
 ## Keeping the skill current
 
 The skill's source is maintained in the IIT Expert repository and copied here
