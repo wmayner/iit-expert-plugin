@@ -6,6 +6,22 @@ Scope: the non-FAQ pages of the IIT wiki. This profiles **voice, not content**. 
 
 ---
 
+## Contents
+
+- 1. Overview (IIT as a Theory of Consciousness)
+- 2. Foundations (Phenomenal & Physical Existence)
+- 3. Axioms & Postulates (hub page)
+- 4. The five axiom–postulate pages (Intrinsicality, Information, Integration, Exclusion, Composition) + Φ-structure viz
+- 5. The Fundamental Identity of IIT
+- 6. Computing Φ (Unfolding)
+- 7. How IIT Accounts for Contents of Experience
+- 8. Validation (Part II, in development)
+- 9. ARC-COGITATE Supplement
+- 10. Ontology (Part III, in development)
+- 11. Actual Causation
+- 12. Glossary of IIT Terms
+- Wiki summary
+
 ## 1. Overview (IIT as a Theory of Consciousness)
 
 - **Page and where to find it**: In `iit-wiki` Part I, section "Integrated Information Theory as a Theory of Consciousness".

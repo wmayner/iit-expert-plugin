@@ -4,6 +4,16 @@ Six papers, each read in full. All model sentences were checked with `grep -F` a
 
 ---
 
+## Contents
+
+- 1. Albantakis et al. 2023, *IIT 4.0* (`albantakis-2023b`)
+- 2. Marshall et al. 2023, *System Integrated Information* (`marshall-2023`)
+- 3. Marshall, Findlay, Albantakis & Tononi 2024, *Intrinsic Units* (`marshall-2026`)
+- 4. Mayner, Marshall & Tononi 2026, *Intrinsic Cause–Effect Power* (`mayner-2026`)
+- 5. Albantakis & Tononi 2019, *Causal Composition* (`albantakis-2019a`)
+- 6. Zaeemzadeh & Tononi 2024, *Shannon Information and Integrated Information: Message and Meaning* (`zaeemzadeh-2024a`)
+- Group summary
+
 ## 1. Albantakis et al. 2023, *IIT 4.0* (`albantakis-2023b`)
 
 **Style anchor for:** the canonical overview of the formalism, including the axiom-to-postulate translation, how the postulates are applied step by step (maximal cause–effect state → φs → complex → distinctions/relations → Φ-structure), the ontological principles, and the "big picture" implications (connectivity, activity vs. inactivation, being vs. doing).

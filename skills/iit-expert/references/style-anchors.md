@@ -1,6 +1,7 @@
 # Style anchors: which part of the corpus an answer should sound like
 
-Use this file in Step 1 of `references/style.md`. Find the row that matches the question's topic,
+Use this file for an answer likely to run beyond about 400 words (see SKILL.md, "Writing the
+answer"). Find the row that matches the question's topic,
 then open the profile of the anchor paper and of the wiki page in `anchors/` (only
 those sections, not the whole file). Each profile gives the source's characteristic
 moves, three verbatim model sentences, and what not to imitate in chat.
@@ -10,16 +11,20 @@ moves, three verbatim model sentences, and what not to imitate in chat.
 - **Wiki page**: sets the canonical wording (axiom and postulate statements, the
   identity, definitions) and lends one summary-style sentence per section.
 - **FAQ**: sets the shape of the answer; its passages are in `qa-exemplars.md`.
-- **Checker keys** for `scripts/check_answer.py --anchor <key> --wiki <key>`: the paper's
+- **Checker keys** for `scripts/check_answer.py --anchor {key} --wiki {key}`: the paper's
   slug as given below (papers not in the library use `grasso-2021a`, `tononi-2025`,
-  `sarasso-2021`, `boly-2024`, `haun-2025`), and `wiki-<page>` for wiki pages
+  `sarasso-2021`, `boly-2024`, `haun-2025`), and `wiki-{page}` for wiki pages
   (`wiki-overview`, `wiki-foundations`, `wiki-identity`, `wiki-unfolding`,
   `wiki-glossary`, `wiki-axioms-and-postulates-integration`, …; run `--list-anchors`).
   Papers without a measured profile (`grasso-2026`, `tononi-2024`) and the contents page
   fall back to `faq`.
 
-Where to read a source: `read_document` with the slug. Wiki pages marked "iit-wiki §…"
-are sections of the `iit-wiki` document. Sources marked "not in the library" cannot be
+Where to read a source: `IIT Expert:read_document` with the slug. Wiki pages marked "iit-wiki §…"
+are the pages of Part I, each its own document: §1 `iit-wiki-overview`, §2
+`iit-wiki-foundations`, §3 `iit-wiki-axioms-and-postulates`, §4
+`iit-wiki-intrinsicality`, §5 `iit-wiki-information`, §6 `iit-wiki-integration`, §7
+`iit-wiki-exclusion`, §8 `iit-wiki-composition`, §10 `iit-wiki-identity`, §11
+`iit-wiki-unfolding`, §12 `iit-wiki-contents`. Sources marked "not in the library" cannot be
 read; answer from their profile alone and say nothing about it.
 
 ## Routing table

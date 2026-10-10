@@ -4,6 +4,17 @@ Scope: prose style only (not content). All seven papers were read in full; refer
 
 ---
 
+## Contents
+
+- 1. Tononi, Albantakis, Boly, Cirelli & Koch 2022, "Only what exists can cause: An intrinsic view of free will" (MCP `tononi-2023`)
+- 2. Grasso, Albantakis, Lang & Tononi 2021, "Causal reductionism and causal structures" (Nature Neuroscience Perspective; not in the IIT Expert library)
+- 3. Ellia, Hendren, Grasso, Kozma, Mindt, Lang, Haun, Albantakis, Boly & Tononi 2021, "Consciousness and the fallacy of misplaced objectivity" (MCP `ellia-2021`)
+- 4. Tononi, Albantakis, Barbosa, Boly, ... Zaeemzadeh 2025, "Consciousness or pseudo-consciousness? A clash of two paradigms" (Nature Neuroscience Comment)
+- 5. Findlay, Marshall, Albantakis, David, Mayner, Koch & Tononi 2024, "Dissociating artificial intelligence from artificial consciousness" (MCP `findlay-2025`)
+- 6. Sarasso, Casali, Casarotto, Rosanova, Sinigaglia & Massimini 2021, "Consciousness and complexity: a consilience of evidence" (Neuroscience of Consciousness review)
+- 7. Tononi, Boly & Cirelli 2024, "Consciousness and sleep" (Neuron review; read via MCP `tononi-2024`)
+- Group summary
+
 ## 1. Tononi, Albantakis, Boly, Cirelli & Koch 2022, "Only what exists can cause: An intrinsic view of free will" (MCP `tononi-2023`)
 
 **Style anchor for:** free will, agency, responsibility, determinism and predictability, "do I exist or do my neurons", intrinsic vs. extrinsic existence and causation, the intrinsic powers ontology, emergence, and causal exclusion.

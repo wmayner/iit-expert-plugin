@@ -4,6 +4,17 @@ Scope: prose style only. All model sentences are verbatim from the corpus text (
 
 ---
 
+## Contents
+
+- 1. Haun & Tononi 2019, "Why does space feel the way it does?" (haun-2019)
+- 2. Comolatti, Grasso & Tononi 2025, "Why does time feel the way it does?" (comolatti-2025)
+- 3. Haun & Tononi 2025, "The unfathomable richness of seeing" (haun-2025)
+- 4. Grasso, Haun & Tononi 2021, "Of maps and grids" (grasso-2021b)
+- 5. Boly et al. 2024, "Neural correlates of pure presence" (boly-2024)
+- 6. Mayner, Juel & Tononi, "Intrinsic meaning, perception, and matching" (mayner-2024)
+- 7. Grasso, Hendren & Tononi 2026, "Consciousness as Intrinsic Structure: Towards a Chemistry of Experience" (grasso-2026)
+- Group summary
+
 ## 1. Haun & Tononi 2019, "Why does space feel the way it does?" (haun-2019)
 
 **Style anchor for:** why space feels extended; spots and their inclusion, connection, and fusion; regions, locations, sizes, boundaries, and distances; why grids and not random networks; why space is a quale "just as" color is.
@@ -23,7 +34,7 @@ Scope: prose style only. All model sentences are verbatim from the corpus text (
 3. "This self-relation corresponds to the phenomenal property that a spot overlaps with itself (reflexivity)." (3.1 Spots)
 
 **Don't imitate**
-- The unit-label and superscript apparatus (CDE, BCDc/<BCDout>, ϕR sums, 133/7976 counts) and figure call-outs. In chat, keep only the phenomenal-to-causal pairing.
+- The unit-label and superscript apparatus (CDE, BCDc/⟨BCDout⟩, ϕR sums, 133/7976 counts) and figure call-outs. In chat, keep only the phenomenal-to-causal pairing.
 - The 300-word enumerative paragraphs and the "(see Note N in Appendix B)" asides.
 
 ---

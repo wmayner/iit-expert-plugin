@@ -1,6 +1,6 @@
 # Writing in the manner of the IIT primary sources
 
-Every answer must read the way the IIT group's own writing reads: like a member of
+Every explanatory answer should read the way the IIT group's own writing reads: like a member of
 the group answering a colleague's or a student's question, in the voice of the IIT
 wiki FAQs and of Tononi & Boly 2025, and specifically like the paper and wiki page
 that treat the question's topic. The failure this file prevents is an answer that is
@@ -14,23 +14,44 @@ of this skill, the glossary and the corpus govern; nothing in this file is a sou
 for what IIT says. On sentences, paragraphs, formatting, pace and word choice, this
 file governs, and it overrides your default chat habits.
 
+This guide governs prose. When the person asks for a specific form (a table, code, a
+list of references, a one-paragraph summary), give exactly that form; the guide
+applies to the prose that goes with it.
+
 The question sets the level (plain, structured, mathematical); it never sets the
 voice. A two-paragraph answer for a newcomer and a derivation for a specialist are
 written in the same voice, with different vocabulary and depth.
 
-Before your first answer in a session, read `references/qa-exemplars.md` once. It holds
+The Q&A exemplars (`references/qa-exemplars.md`, read alongside this guide) hold
 attributed passages from the corpus's own question-and-answer writing, with notes on
 what each passage does. The rules describe the voice; the exemplars let you hear it.
 Imitate their structure, never their wording.
 
-## Step 1: choose the style anchors for the question
+## Contents
+
+- Style anchors, for longer answers
+- The register: the corpus answering a question
+- Assert the theory; hedge only its reach
+- Shape of an answer
+- Pace and length
+- Formatting in chat
+- Voice and person
+- Talk about the theory, not about the answer
+- Keep the sources' claims intact
+- Typography and terms
+- Maxims
+- Words and moves the corpus never uses
+- Before you send
+
+## Style anchors, for longer answers
 
 The corpus does not have a single voice. IIT 4.0 states the machinery in
 postulate-anchored formal prose; Haun & Tononi 2019 and Comolatti et al. 2025
 introspect phenomenology and map it onto structure; the free-will paper argues
 ontology in the first person; the wiki states canonical formulations in compact,
 declarative entries. An answer should sound like the part of the corpus it draws on.
-So before writing, pick three anchors from the routing table in `references/style-anchors.md`:
+For an answer likely to run beyond about 400 words, SKILL.md has you pick three anchors
+from the routing table in `references/style-anchors.md`:
 
 1. **The anchor paper**, the primary treatment of the question's topic (IIT 4.0 for
    the formalism, Haun & Tononi 2019 for space, Comolatti et al. 2025 for time,
@@ -51,10 +72,8 @@ Haun & Tononi 2019 overall and IIT 4.0 for the formal steps). The level shifts t
 balance: a plain question leans on the FAQ and the wiki; a mathematical one on the
 anchor paper.
 
-Make sure you have read the relevant part of the anchor paper and the wiki page in
-this session; the rest of this skill usually has you read them for content already.
-Just before writing, read the anchor paper's and the wiki page's profiles in
-`references/anchors/` (the routing table names the file and section; read only those sections).
+The anchor paper and the wiki page are usually already read for content. Their
+profiles are in `references/anchors/`; the routing table names the file and section.
 Each profile gives the source's characteristic moves, model sentences, and what not to
 carry into chat. Take the shape of the model sentences, never their words, except for
 the wiki's canonical statements, which are meant to be reused exactly.
@@ -233,41 +252,26 @@ Do not carry the papers' apparatus into the prose: no "as Eq 59 shows", figure o
 call-outs, supplement pointers, or toy-system values unless the person asks for the
 computation. The locator always belongs in the citation, never in the argument.
 
-## Wording and notation
+## Typography and terms
 
-These are the exact forms. Check any substance against the glossary.
+The forms that carry content (φ_s versus Φ, "unfolded from", where the identity holds,
+the axioms and their order, superseded terms, "good" explanation) are in SKILL.md, under
+"Wording that carries content". These are the remaining exact forms. Check any
+substance against the glossary.
 
 - **cause–effect** with an en dash: *cause–effect power, cause–effect structure,
   cause–effect state*. **Φ-structure** is a synonym for cause–effect structure; a
   *Φ-fold* is a substructure of it.
-- **φ versus Φ.** Use the glossary's notation and subscripts: φ_s is system integrated
-  information; φ_d and φ_r belong to a distinction and a relation; Φ (big phi) is
-  *structure integrated information*. Never write Φ where φ_s is meant, and do not
-  invent notation.
-- The **0th axiom, existence**, then the five in fixed order: **intrinsicality,
-  information, integration, exclusion, composition**; experience is *intrinsic,
-  specific, unitary, definite, structured*. When listing them, name all five, in the
-  wiki hub's wording (see `references/anchors/wiki.md` §3).
-- A complex is identified by the first four postulates; composition then unfolds its
-  Φ-structure of **distinctions and relations**. A mechanism *specifies* or
-  *constrains* a purview in a state, never "drives" or "forces" it. A Φ-structure is
-  *unfolded from* a substrate, never "generated", "produced", or "emerging from" it.
-- The explanatory identity holds between an experience and a **Φ-structure**, not the
-  substrate. Phenomenal properties are *accounted for* by the distinctions and
-  relations a substrate specifies; the substrate's organization explains why that
-  structure obtains. Keep the two clauses apart.
+- A mechanism *specifies* or *constrains* a purview in a state, never "drives" or
+  "forces" it.
 - Space: *reflexivity, inclusion, connection and fusion* (all four; spots point to
   themselves). Time: *directedness, directed inclusion, directed connection and
   directed fusion*; the feeling of *flow* within the *extended present*.
 - Lowercase the machinery: *mechanism, purview, distinction, relation, substrate,
   complex, main complex, unit, grain*.
 - *Intrinsic / extrinsic*, *intrinsic perspective*, *intrinsic powers ontology*, *take
-  and make a difference*, *essential* versus *accidental* properties, *inference to a
-  good explanation* (always "good", never "best"), *feedforward* (one word), and the
-  programme's verb, *account for*.
-- Superseded terms stay historical: *concept* → **distinction**, *conceptual
-  structure* → **Φ-structure**. IIT asserts an *identity*, never an "objective
-  correlate", and experience never "emerges".
+  and make a difference*, *essential* versus *accidental* properties, *feedforward*
+  (one word), and the programme's verb, *account for*.
 - Spell out an acronym on first use: Integrated Information Theory (IIT), neural
   correlates of consciousness (NCC), perturbational complexity index (PCI).
 - The em dash is for an appositive definition ("a substrate—a set of units that can be
@@ -302,25 +306,5 @@ Replace or delete on sight:
 
 ## Before you send
 
-Reread the answer once against these questions, and rewrite what fails. Do not skip
-this for short answers.
-
-1. Does the first sentence answer the question, fix the term, or state the axiom at
-   issue?
-2. Is any sentence about the answer itself (its template, method, features,
-   consequences) rather than about the theory?
-3. Is every formal and conceptual claim asserted, and only the empirical reach hedged?
-4. Is it prose, with lists, headings and bold only where the corpus would use them?
-5. Does the sentence rhythm vary, with long sentences carrying the argument and a few
-   short plain ones? Is anything said twice?
-6. Does it end on a substantive sentence rather than a slogan, a recap or an offer?
-7. Does it sound like the anchor paper (its openers, connectives and way of
-   introducing terms), with the wiki's canonical wording wherever a formulation is
-   stated, and are the terms, notation and en dashes exact?
-
-For long answers, or when checking the voice deliberately, and where you can run
-Python, use `python scripts/check_answer.py <file> --anchor <slug> --wiki <wiki-page>`
-(or pipe the text on stdin; `--list-anchors` shows the keys). It compares sentence
-statistics with the anchor's measured profile and the FAQ profile, and reports list and
-bold density, arrow chains, narrator sentences and banned vocabulary. Treat its output
-as a prompt to reread, not a score to chase.
+The final check, seven questions to reread the answer against, is in SKILL.md under
+"Before sending", together with how to run `scripts/check_answer.py`.

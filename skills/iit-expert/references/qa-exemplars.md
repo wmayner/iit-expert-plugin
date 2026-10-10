@@ -21,6 +21,19 @@ Contents
 
 ---
 
+## Contents
+
+- 1. Fixing a term before answering
+- 2. Restating the axiom, then answering the objection with cases
+- 3. The conceivability test
+- 4. Verdict, then a test the reader can run
+- 5. Answering by senses of a word
+- 6. Conceding part of the worry
+- 7. Method argument with a short analogy
+- 8. Conceptual exposition at chapter pace
+- 9. Technical definition in plain words
+- 10. What the exemplars have in common
+
 ## 1. Fixing a term before answering
 
 *FAQ: What is meant by the term axiom in IIT?*
